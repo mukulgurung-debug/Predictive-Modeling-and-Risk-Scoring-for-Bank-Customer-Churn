@@ -339,7 +339,7 @@ with t3:
             'Scenario': [
                 'Baseline',
                 f'{sim_prods} Prods, {"Active" if sim_act==1 else "Inactive"}'
-            ]
+            ],
             'Churn Probability (%)': [base_prob * 100, sim_prob * 100]
         })
         fig_sim = px.bar(
