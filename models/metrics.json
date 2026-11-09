@@ -1,0 +1,26 @@
+{
+  "total_customers": 10000,
+  "churn_rate": 0.2037,
+  "best_model": "Gradient Boosting",
+  "best_roc_auc": 0.8694,
+  "best_accuracy": 0.8655,
+  "best_precision": 0.7674,
+  "best_recall": 0.4865,
+  "best_f1": 0.5955,
+  "risk_tier_counts": {
+    "Low Risk": 7839,
+    "Moderate Risk": 1133,
+    "High Risk": 1028
+  },
+  "geography_churn": {
+    "France": 0.1615,
+    "Germany": 0.3244,
+    "Spain": 0.1667
+  },
+  "product_churn": {
+    "1 Product": 0.2771,
+    "2 Products": 0.0758,
+    "3 Products": 0.8271,
+    "4 Products": 1.0
+  }
+}
