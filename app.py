@@ -336,7 +336,7 @@ with t3:
         m_c.metric("Net Risk Shift", f"{delta_prob:+.1f}%", delta=f"{delta_prob:+.1f}%", delta_color="inverse")
 
         sim_df = pd.DataFrame({
-            'Scenario': ['Baseline
+            'Scenario': ['Baseline']
 (1 Prod, Inactive)', f'Simulated
 ({sim_prods} Prods, {"Active" if sim_act==1 else "Inactive"})'],
             'Churn Probability (%)': [base_prob * 100, sim_prob * 100]
